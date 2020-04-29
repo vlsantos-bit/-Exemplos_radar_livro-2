@@ -1,0 +1,873 @@
+<volume version="5.37.6" datetime="2020-04-28T22:38:10" type="vol" owner="">
+   <scan name="vol_250km_13steps.vol" time="22:30:03" date="2020-04-28">
+      <unitid>SI</unitid>
+      <advancedchanged>0</advancedchanged>
+      <detailedchanged>1</detailedchanged>
+      <scantime>501</scantime>
+      <pargroup refid="sdfbase">
+         <multitrip>Off</multitrip>
+         <numtrip>1</numtrip>
+         <triprecovery>Off</triprecovery>
+         <multitripprfmode>Off</multitripprfmode>
+         <stoprange>250</stoprange>
+         <numele>16</numele>
+         <scanstrategy>Optimised</scanstrategy>
+         <firstele>1</firstele>
+         <lastele>25</lastele>
+         <antdirection>0</antdirection>
+         <sectorscan>Off</sectorscan>
+         <gdrx_dp_proc_mode>GdrxDpModeHV_HV</gdrx_dp_proc_mode>
+         <rangestep>0.25</rangestep>
+         <rangesamp>2</rangesamp>
+         <start_range>0</start_range>
+         <highprf>600</highprf>
+         <stagger>5/4</stagger>
+         <lowprf>480</lowprf>
+         <pw_index>1</pw_index>
+         <cf_doppler>Off</cf_doppler>
+         <filtermode>FFT</filtermode>
+         <fftfilter>On</fftfilter>
+         <cf_spatial>On</cf_spatial>
+         <speckle>On</speckle>
+         <gdrx_clutter_flag_filter>Off</gdrx_clutter_flag_filter>
+         <cf_dectree>Off</cf_dectree>
+         <cf_gip>Off</cf_gip>
+         <filterwidth>6</filterwidth>
+         <cf_gip_width>0.5000</cf_gip_width>
+         <cf_gip_mode_const>On</cf_gip_mode_const>
+         <gdrx_cluttermap>GdrxCmOff</gdrx_cluttermap>
+         <int_filter_mode>1</int_filter_mode>
+         <int_filter_hconf>18</int_filter_hconf>
+         <int_filter_vconf>18</int_filter_vconf>
+         <int_filter_phaseint>On</int_filter_phaseint>
+         <antspeed>12</antspeed>
+         <anglestep>1</anglestep>
+         <timesamp>22</timesamp>
+         <fixselect>AngleStep</fixselect>
+         <csr>30</csr>
+         <sqi>0.3</sqi>
+         <zsqi>0.5</zsqi>
+         <log>2</log>
+         <extrarclfile></extrarclfile>
+         <comment></comment>
+         <dualprfmode>SdfDPrfModeAda</dualprfmode>
+         <prfcorrthr>2</prfcorrthr>
+         <prfcorron>On</prfcorron>
+         <prfcorrmode>SdfDPrfCorrMedian</prfcorrmode>
+         <filterdepth>SdfCfDepthDefault</filterdepth>
+         <fft_weight>GdrxWfHamming</fft_weight>
+         <spatial_modus>SdfSpatialFilterAvg</spatial_modus>
+         <spatial_min>3</spatial_min>
+         <spatial_max>5</spatial_max>
+         <gdrx_tripnotchwidth>0.5</gdrx_tripnotchwidth>
+         <gdrx_tripccorthres>20</gdrx_tripccorthres>
+         <gdrx_tripsnrthres>3</gdrx_tripsnrthres>
+         <gdrx_tripsqithres>0.4</gdrx_tripsqithres>
+         <gdrx_tripratiothres>20</gdrx_tripratiothres>
+         <gdrx_tripdftwin>GdrxWfRectangular</gdrx_tripdftwin>
+         <phase_coding>2</phase_coding>
+         <datatypes>dBuZ,dBZ,V,W,ZDR,uPhiDP,PhiDP,KDP,RhoHV</datatypes>
+         <masterdatatypes>dBZ,V,W,ZDR,uPhiDP,KDP,RhoHV</masterdatatypes>
+         <datatypes_format>dBZ=-1,dBuZ=-1,V=-1,W=-1,ZDR=-1,uPhiDP=-1,PhiDP=-1,KDP=-1,RhoHV=-1</datatypes_format>
+      </pargroup>
+      <slice refid="0">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-62.94" max="62.94"/>
+         <dynw min="0.0614648" max="15.6735"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="0" max="1"/>
+         <dynsnr min="0" max="127"/>
+         <threshold>dBZ:10,dBZv:10,dBuZ:1,dBuZv:1,V:6,Vv:6,Vu:65,Vvu:65,W:6,Wv:6,Wu:65,Wvu:65,ZDR:10,ZDRu:1,LDR:10,LDRu:1,uPhiDP:2,uPhiDPu:1,PhiDP:2,KDP:2,uKDP:2,uKDPu:1,RhoHV:2,RhoHVu:1</threshold>
+         <kdpautoscale>On</kdpautoscale>
+         <posangle>1.0</posangle>
+         <startangle>0.0</startangle>
+         <stopangle>0.0</stopangle>
+         <numtrip>1</numtrip>
+         <triprecovery>Off</triprecovery>
+         <stoprange>250</stoprange>
+         <start_range>0</start_range>
+         <rangestep>0.25</rangestep>
+         <rangesamp>2</rangesamp>
+         <highprf>600</highprf>
+         <stagger>5/4</stagger>
+         <lowprf>480</lowprf>
+         <pw_index>1</pw_index>
+         <cf_doppler>Off</cf_doppler>
+         <filterwidth>6</filterwidth>
+         <fftfilter>On</fftfilter>
+         <cf_spatial>On</cf_spatial>
+         <speckle>On</speckle>
+         <statisticalfilter>Off</statisticalfilter>
+         <gdrx_cluttermap>GdrxCmOff</gdrx_cluttermap>
+         <gdrx_clutter_flag_filter>Off</gdrx_clutter_flag_filter>
+         <cf_gip>Off</cf_gip>
+         <cf_gip_width>0.5000</cf_gip_width>
+         <cf_gip_mode_const>On</cf_gip_mode_const>
+         <cf_gip_max_width>0.5000</cf_gip_max_width>
+         <int_filter_mode>1</int_filter_mode>
+         <int_filter_hconf>18</int_filter_hconf>
+         <int_filter_vconf>18</int_filter_vconf>
+         <int_filter_phaseint>On</int_filter_phaseint>
+         <antspeed>8</antspeed>
+         <antdirection>0</antdirection>
+         <fixselect>AngleStep</fixselect>
+         <anglesync>On</anglesync>
+         <timesamp>59</timesamp>
+         <anglestep>0.9</anglestep>
+         <asyncoffset>0</asyncoffset>
+         <csr>30</csr>
+         <sqi>0.3</sqi>
+         <zsqi>0.5</zsqi>
+         <log>2</log>
+         <extrarclfile></extrarclfile>
+         <dualprfmode>SdfDPrfModeAda</dualprfmode>
+         <prfcorrthr>2</prfcorrthr>
+         <prfcorron>On</prfcorron>
+         <prfcorrmode>SdfDPrfCorrMedian</prfcorrmode>
+         <filterdepth>SdfCfDepthDefault</filterdepth>
+         <fft_weight>GdrxWfHamming</fft_weight>
+         <spatial_modus>SdfSpatialFilterAvg</spatial_modus>
+         <spatial_min>3</spatial_min>
+         <spatial_max>5</spatial_max>
+         <gdrx_tripnotchwidth>0.5</gdrx_tripnotchwidth>
+         <gdrx_tripccorthres>20</gdrx_tripccorthres>
+         <gdrx_tripsnrthres>3</gdrx_tripsnrthres>
+         <gdrx_tripsqithres>0.4</gdrx_tripsqithres>
+         <gdrx_tripratiothres>20</gdrx_tripratiothres>
+         <gdrx_tripdftwin>GdrxWfRectangular</gdrx_tripdftwin>
+         <phase_pattern>0</phase_pattern>
+         <phase_coding>2</phase_coding>
+         <cf_dectree>Off</cf_dectree>
+         <noise_power_dbz>-50.2552</noise_power_dbz>
+         <noise_power_dbz_dpv>-46.4292</noise_power_dbz_dpv>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>760.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.923565</gdrxanctxfreq>
+         <slicedata time="22:30:03" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="0" rays="400" depth="16"/>
+            <rayinfo refid="stopangle" blobid="1" rays="400" depth="16"/>
+            <rawdata blobid="2" rays="400" type="KDP" bins="1000" min="0" max="1" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="1">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-62.94" max="62.94"/>
+         <dynw min="0.0614648" max="15.6735"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>1.6</posangle>
+         <timesamp>59</timesamp>
+         <noise_power_dbz>-50.2552</noise_power_dbz>
+         <noise_power_dbz_dpv>-46.4292</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>760.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.923565</gdrxanctxfreq>
+         <slicedata time="22:30:50" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="3" rays="400" depth="16"/>
+            <rayinfo refid="stopangle" blobid="4" rays="400" depth="16"/>
+            <rawdata blobid="5" rays="400" type="KDP" bins="1000" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="2">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-62.94" max="62.94"/>
+         <dynw min="0.0614648" max="15.6735"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>2.2</posangle>
+         <timesamp>53</timesamp>
+         <anglestep>0.8</anglestep>
+         <noise_power_dbz>-50.2552</noise_power_dbz>
+         <noise_power_dbz_dpv>-46.4292</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>760.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.923565</gdrxanctxfreq>
+         <slicedata time="22:31:38" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="6" rays="450" depth="16"/>
+            <rayinfo refid="stopangle" blobid="7" rays="450" depth="16"/>
+            <rawdata blobid="8" rays="450" type="KDP" bins="1000" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="3">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-62.94" max="62.94"/>
+         <dynw min="0.0614648" max="15.6735"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>3.0</posangle>
+         <timesamp>53</timesamp>
+         <anglestep>0.8</anglestep>
+         <noise_power_dbz>-50.2552</noise_power_dbz>
+         <noise_power_dbz_dpv>-46.4292</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>760.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.923565</gdrxanctxfreq>
+         <slicedata time="22:32:26" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="9" rays="450" depth="16"/>
+            <rayinfo refid="stopangle" blobid="10" rays="450" depth="16"/>
+            <rawdata blobid="11" rays="450" type="KDP" bins="1000" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="4">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-62.94" max="62.94"/>
+         <dynw min="0.0614648" max="15.6735"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>3.8</posangle>
+         <timesamp>59</timesamp>
+         <antspeed>9</antspeed>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-50.2552</noise_power_dbz>
+         <noise_power_dbz_dpv>-46.4292</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>760.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.923565</gdrxanctxfreq>
+         <slicedata time="22:33:13" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="12" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="13" rays="360" depth="16"/>
+            <rawdata blobid="14" rays="360" type="KDP" bins="1000" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="5">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-62.94" max="62.94"/>
+         <dynw min="0.0614648" max="15.6735"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>4.8</posangle>
+         <timesamp>59</timesamp>
+         <antspeed>9</antspeed>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-50.2552</noise_power_dbz>
+         <noise_power_dbz_dpv>-46.4292</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>760.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.923565</gdrxanctxfreq>
+         <slicedata time="22:33:56" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="15" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="16" rays="360" depth="16"/>
+            <rawdata blobid="17" rays="360" type="KDP" bins="1000" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="6">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-62.94" max="62.94"/>
+         <dynw min="0.0614648" max="15.6735"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>5.9</posangle>
+         <timesamp>53</timesamp>
+         <antspeed>10</antspeed>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-50.2552</noise_power_dbz>
+         <noise_power_dbz_dpv>-46.4292</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>760.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.923565</gdrxanctxfreq>
+         <slicedata time="22:34:38" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="18" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="19" rays="360" depth="16"/>
+            <rawdata blobid="20" rays="360" type="KDP" bins="1000" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="7">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-62.94" max="62.94"/>
+         <dynw min="0.0614648" max="15.6735"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>7.1</posangle>
+         <timesamp>53</timesamp>
+         <antspeed>10</antspeed>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-50.2552</noise_power_dbz>
+         <noise_power_dbz_dpv>-46.4292</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>760.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.923565</gdrxanctxfreq>
+         <slicedata time="22:35:17" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="21" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="22" rays="360" depth="16"/>
+            <rawdata blobid="23" rays="360" type="KDP" bins="1000" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="8">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-26.225" max="26.225"/>
+         <dynw min="0.102441" max="26.1226"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>8.5</posangle>
+         <timesamp>49</timesamp>
+         <antspeed>20</antspeed>
+         <stoprange>129</stoprange>
+         <pw_index>0</pw_index>
+         <highprf>1000</highprf>
+         <stagger>None</stagger>
+         <lowprf>0</lowprf>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-37.5115</noise_power_dbz>
+         <noise_power_dbz_dpv>-33.6755</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>756.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>60.045200</gdrxanctxfreq>
+         <slicedata time="22:35:55" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="24" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="25" rays="360" depth="16"/>
+            <rawdata blobid="26" rays="360" type="KDP" bins="516" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="9">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-31.47" max="31.47"/>
+         <dynw min="0.12293" max="31.3471"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>10.0</posangle>
+         <timesamp>47</timesamp>
+         <stoprange>112</stoprange>
+         <pw_index>0</pw_index>
+         <highprf>1200</highprf>
+         <stagger>None</stagger>
+         <lowprf>0</lowprf>
+         <antspeed>25</antspeed>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-37.5115</noise_power_dbz>
+         <noise_power_dbz_dpv>-33.6755</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>756.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.928516</gdrxanctxfreq>
+         <slicedata time="22:36:15" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="27" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="28" rays="360" depth="16"/>
+            <rawdata blobid="29" rays="360" type="KDP" bins="448" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="10">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-31.47" max="31.47"/>
+         <dynw min="0.12293" max="31.3471"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>11.8</posangle>
+         <timesamp>47</timesamp>
+         <stoprange>100</stoprange>
+         <pw_index>0</pw_index>
+         <highprf>1200</highprf>
+         <stagger>None</stagger>
+         <lowprf>0</lowprf>
+         <antspeed>25</antspeed>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-37.5115</noise_power_dbz>
+         <noise_power_dbz_dpv>-33.6755</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>756.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.928516</gdrxanctxfreq>
+         <slicedata time="22:36:32" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="30" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="31" rays="360" depth="16"/>
+            <rawdata blobid="32" rays="360" type="KDP" bins="400" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="11">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-31.47" max="31.47"/>
+         <dynw min="0.12293" max="31.3471"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>13.8</posangle>
+         <timesamp>47</timesamp>
+         <stoprange>83</stoprange>
+         <pw_index>0</pw_index>
+         <highprf>1200</highprf>
+         <stagger>None</stagger>
+         <lowprf>0</lowprf>
+         <antspeed>25</antspeed>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-37.5115</noise_power_dbz>
+         <noise_power_dbz_dpv>-33.6755</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>756.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.928516</gdrxanctxfreq>
+         <slicedata time="22:36:48" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="33" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="34" rays="360" depth="16"/>
+            <rawdata blobid="35" rays="360" type="KDP" bins="332" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="12">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-31.47" max="31.47"/>
+         <dynw min="0.12293" max="31.3471"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>16.1</posangle>
+         <timesamp>47</timesamp>
+         <stoprange>72</stoprange>
+         <pw_index>0</pw_index>
+         <highprf>1200</highprf>
+         <stagger>None</stagger>
+         <lowprf>0</lowprf>
+         <antspeed>25</antspeed>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-37.5115</noise_power_dbz>
+         <noise_power_dbz_dpv>-33.6755</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>756.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.928516</gdrxanctxfreq>
+         <slicedata time="22:37:05" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="36" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="37" rays="360" depth="16"/>
+            <rawdata blobid="38" rays="360" type="KDP" bins="288" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="13">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-31.47" max="31.47"/>
+         <dynw min="0.12293" max="31.3471"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>18.7</posangle>
+         <timesamp>47</timesamp>
+         <stoprange>65</stoprange>
+         <pw_index>0</pw_index>
+         <highprf>1200</highprf>
+         <stagger>None</stagger>
+         <lowprf>0</lowprf>
+         <antspeed>25</antspeed>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-37.5115</noise_power_dbz>
+         <noise_power_dbz_dpv>-33.6755</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>756.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>60.044170</gdrxanctxfreq>
+         <slicedata time="22:37:21" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="39" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="40" rays="360" depth="16"/>
+            <rawdata blobid="41" rays="360" type="KDP" bins="260" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="14">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-31.47" max="31.47"/>
+         <dynw min="0.12293" max="31.3471"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>21.7</posangle>
+         <timesamp>47</timesamp>
+         <stoprange>57</stoprange>
+         <pw_index>0</pw_index>
+         <highprf>1200</highprf>
+         <stagger>None</stagger>
+         <lowprf>0</lowprf>
+         <antspeed>25</antspeed>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-37.5115</noise_power_dbz>
+         <noise_power_dbz_dpv>-33.6755</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>756.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>60.044170</gdrxanctxfreq>
+         <slicedata time="22:37:38" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="42" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="43" rays="360" depth="16"/>
+            <rawdata blobid="44" rays="360" type="KDP" bins="228" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+      <slice refid="15">
+         <dynz min="-31.5" max="95.5"/>
+         <dynv min="-31.47" max="31.47"/>
+         <dynw min="0.12293" max="31.3471"/>
+         <dynzdr min="-8" max="12"/>
+         <dynldr min="-50" max="10"/>
+         <dynkdp min="-10" max="10"/>
+         <dynsnr min="0" max="127"/>
+         <posangle>25.0</posangle>
+         <timesamp>47</timesamp>
+         <stoprange>51</stoprange>
+         <pw_index>0</pw_index>
+         <highprf>1200</highprf>
+         <stagger>None</stagger>
+         <lowprf>0</lowprf>
+         <antspeed>25</antspeed>
+         <anglestep>1</anglestep>
+         <noise_power_dbz>-37.5115</noise_power_dbz>
+         <noise_power_dbz_dpv>-33.6755</noise_power_dbz_dpv>
+         <rangestep>0.25</rangestep>
+         <rspradconst>72.648 66.093 64.043 </rspradconst>
+         <rspdphradconst>75.507 68.952 66.902 </rspdphradconst>
+         <rspdpvradconst>76.034 69.479 67.429 </rspdpvradconst>
+         <gdrxmaxpowkw>756.0000</gdrxmaxpowkw>
+         <rsptxcorr>4</rsptxcorr>
+         <gdrxafcmode>0</gdrxafcmode>
+         <gdrxafcfreq>60.000000</gdrxafcfreq>
+         <gdrxanctxfreq>59.931755</gdrxanctxfreq>
+         <slicedata time="22:37:55" date="2020-04-28">
+            <rayinfo refid="startangle" blobid="45" rays="360" depth="16"/>
+            <rayinfo refid="stopangle" blobid="46" rays="360" depth="16"/>
+            <rawdata blobid="47" rays="360" type="KDP" bins="204" min="-10" max="10" depth="16"/>
+         </slicedata>
+      </slice>
+   </scan>
+   <sensorinfo type="gdrx" id="MC1-P" name="Maceio">
+      <lon>-35.770680</lon>
+      <lat>-9.551290</lat>
+      <alt>102.000000</alt>
+      <wavelen>0.1049</wavelen>
+      <beamwidth>1.011</beamwidth>
+   </sensorinfo>
+   <history pdfname="" ppdfname="" sdfname="">
+      <rawdatafiles>
+         <file>rawdata/MC1/vol_250km_13steps.vol/2020-04-28/2020042822300300uPhiDP.vol</file>
+      </rawdatafiles>
+   </history>
+</volume>
+<!-- END XML -->
+<BLOB blobid="0" size="815" compression="qt">
+   xœ ßü,Í-q..¹/]00¤1H1í2‘353Ú4|5 5Ä6g77¯8T8ø9š:@:â;‰<*<Î=r>>¹?^@ @§AIAíB‘C6CÚD{E EÃFgGG¯HSHøIšJ>JãK‡L)LÍMsNN»O]PP¤QIQíRS4SØT}UUÅVgWW²XSXöY›Z?Zã[‰\+\Í]q^^»_^``¤aIaìbc4cØd{eeÄfhgg°hSh÷i›j?jâk‡l+lÍmsnn¼o]p p¤qIqír’s4sØt|uuÄvgww°xRxøyšz?zã{‡|*|Ï}s~~º_€€¥Ií‚‘ƒ5ƒØ„|…!…Æ†i‡‡±ˆRˆö‰šŠ>Šâ‹†Œ)ŒÎrŽŽ»]¥‘I‘î’‘“5“Ù”{••Ä–h——±˜R˜ö™›š>šã›‡œ)œÏržž¹Ÿ]  ¤¡H¡í¢£5£Ù¤}¥¥Ã¦i§§±¨T¨÷©›ª@ªã«‡¬+¬Î­s®®¼¯_°°¤±H±í²’³4³Ù´|µ!µÄ¶h··°¸S¸ö¹šº?ºã»†¼*¼Í½r¾¾¹¿^ÀÀ¤ÁHÁìÂ’Ã6ÃØÄ|Å ÅÃÆhÇÇ°ÈSÈøÉšÊ?ÊãË†Ì)ÌÎÍsÎÎ¹Ï]ÐÐ¤ÑKÑìÒ‘Ó6ÓÙÔ{ÕÕÃÖh××¯ØRØ÷Ù›Ú?ÚãÛ†Ü*ÜÎÝrÞÞºß`àà¥áIáïâ‘ã4ãÙä|å åÄægçç¯èRèöéšê@êãëˆì)ìÍísîî¹ï]ðð¥ñIñíòó6óØô{õ õÅöh÷÷²øRø÷ùšú>úãû‰ü)üÎýrþþ»ÿ^  ¥Jì‘5Ù| Äh±Tö	
+?
+ã‡)Ïq¹] ¥Jí’6Ú} Åg±Rö›>äˆ*Ïs»^  §!H!í"#5#Ù$}% %Å&i''°(R(ö)š*>*â+‡,*¯_‰	
+</BLOB>
+<BLOB blobid="1" size="815" compression="qt">
+   xœ ßü-n..·/Z/ÿ0¢1E1ê2Ž323Ö4y55À6d7	7­8Q8õ9—:<:à;…<'<Ë=o>>·?Z?ý@£AGAéBC3C×DyEEÀFdG	G­HPHõI–J;JàK…L%LËMpNN·OZOÿP¢QFQëRS2SÕTzUUÂVdW	W®XQXôY˜Z<Zá[…\(\É]m^^¸_[_ÿ`¡aGaèbc1cÕdxeeÂfeg
+g®hPhôi™j=jÞk„l(lËmonn¸oZoüp¡qGqêrŽs1sÕtzuuÂvew	w­xPxôy—z=zà{…|(|Ë}p~~¸\ÿ€¡Gê‚Žƒ2ƒÖ„z……Â†f‡
+‡®ˆNˆô‰˜Š;Šß‹ƒŒ'ŒÌoŽŽ¸Zþ£‘G‘ë’“3“Ö”x••Â–f—
+—®˜P˜ô™˜š<šà›…œ'œËpžž·ŸZŸÿ ¡¡F¡ë¢£2£×¤z¥¥À¦f§
+§®¨P¨õ©™ª=ªà«„¬(¬Ë­p®®¸¯\¯ÿ°¢±F±ë²³2³Õ´xµµÂ¶e·	·­¸Q¸ò¹˜º;ºà»‚¼(¼Ë½o¾¾·¿[¿ÿÀ¢ÁFÁêÂŽÃ3ÃÖÄzÅÅÁÆeÇ	Ç®ÈPÈõÉ–Ê=ÊàË„Ì'ÌËÍpÎÎµÏ[ÏýÐ¡ÑGÑêÒŽÓ3ÓÕÔxÕÕÀÖf×	×­ØPØõÙ™Ú<ÚáÛ„Ü'ÜÊÝoÞÞ·ß\ßÿà£áGáëâã0ã×äxååÂæcç
+ç­èOèôé˜ê=êàë…ì'ìËípîî·ïZïþð¢ñGñëòó3óÖôyõõÂöe÷÷®øOøõù˜ú<úàû…ü&üËýoþþ¸ÿZÿÿ ¢Gé2×zÁf
+®Qó	™
+=
+à„%Ìn·[þ£Gë3ÖzÂe
+®Oó˜<á…(Ìp¸[ÿ £!E!ê"Ž#2#Ö$z%%Â&f'
+'­(N(ó)—*=*à+ƒ,(,ÌI/•
+</BLOB>
+<BLOB blobid="2" size="802" compression="qt">
+ 5 xœíÁ   Â ÷Om                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      À‡5´ 
+</BLOB>
+<BLOB blobid="3" size="815" compression="qt">
+   xœ ßü;‡<)<Î=r>>¹?`@@§AJAïB‘C4CÙD|E!EÄFiGG°HRHøIœJ?JâKˆL*LÍMqNNºO^PP¥QJQîRS5SÙT{UUÃVgWW¯XSXøY›Z?Zã[‡\+\Ï]s^^¹_^` `¤aHaîb‘c6cØd~eeÃfhgg¯hRhøiœj>jãk‡l)lÏmsnn¹o^p p¥qIqìrs6sØt{uuÃvgww°xSxöyšz>zâ{†|)|Í}r~~¹`€€¤Hí‚‘ƒ5ƒÙ„}… …Ä†h‡‡°ˆRˆö‰Š>Šã‹ˆŒ*ŒÎtŽŽº_¥‘H‘ì’‘“5“Ø”}•!•Ã–h——°˜R˜ù™šš?šã›‡œ*œÎržž¹Ÿ]  §¡H¡ì¢‘£5£Ù¤}¥¥Æ¦h§§±¨T¨÷©›ª?ªâ«†¬+¬Î­s®®º¯^°°¥±J±ì²³5³Ú´|µ µÃ¶j··°¸S¸ö¹›º@ºã»†¼*¼Í½q¾¾º¿^À À¥ÁHÁíÂ‘Ã7ÃÙÄ{Å ÅÄÆgÇÇ°ÈSÈ÷É›Ê@ÊãË†Ì)ÌÍÍsÎÎºÏ_ÐÐ¦ÑJÑíÒ‘Ó6ÓÙÔ|Õ ÕÄÖj××°ØSØøÙ›Ú@ÚâÛ†Ü*ÜÍÝrÞÞºß_àà¥áIáïâ‘ã5ãÙä~å åÄægçç°èSèöé›ê>êãë†ì*ìÎítîîºï]ð ð¥ñIñíò‘ó5óÛô|õ õÃöj÷÷°øRøöù›ú@úãû‡ü+üÍýrþþ¹ÿ^   ¤Iì5Ù{ Ãh²Rø	š
+>
+â‡)Íq¼] ¥Jì‘5Ø| Äi¯S÷œ@ä‡+Îsº_  ¥!J!ì"#5#Ù${%%Å&h''°(S(ø)š*?*ã+‡,*,Î-s..»/]0 0¦1I1ì2363Ú4{5 5Ä6j77¯8R8ö9œ:@:ã:ò‰
+</BLOB>
+<BLOB blobid="4" size="815" compression="qt">
+   xœ ßü<&<Ê=o>>·?\?ÿ@£AGAëBŽC2C×DzEEÁFfG
+G®HNHõI™J<JàK…L'LÉMnNN¶O\OÿP¢QFQëRS3SÖTxUUÁVdW
+W«XQXõY™Z=Zá[ƒ\(\Ì]p^^·_[_ý`¡aEaëbc3cÖdzeeÀfeg
+g­hOhõi™j;jàk…l%lÌmpnn¶o\oýp£qGqêrs3sÖtxuu¿vew	w­xQxóy˜z<zß{„|'|Ë}o~~·\ÿ€ Eê‚ƒ2ƒ×„z……Á†f‡‡®ˆOˆó‰™Š;Šá‹…Œ(ŒÌpŽŽ¸\ÿ¢‘F‘ê’Ž“3“Ö”z••À–d—
+—­˜O˜õ™˜š;šà›„œ&œÌožž·Ÿ[Ÿÿ £¡E¡ê¢£2£×¤z¥¥Â¦e§	§®¨P¨õ©˜ª<ªß«„¬(¬Ì­o®®¸¯[¯ÿ°¢±F±é²Ž³3³×´zµµÁ¶f··®¸Q¸ò¹˜º<ºá»„¼'¼É½o¾¾¸¿\¿ýÀ£ÁFÁéÂŽÃ3Ã×ÄxÅÅÁÆeÇÇ®ÈOÈõÉ™Ê=ÊàË„Ì'ÌËÍpÎÎ¸Ï\ÏýÐ£ÑFÑêÒŽÓ3ÓÖÔyÕÕÁÖf×
+×­ØQØõÙ˜Ú=ÚßÛ„Ü'ÜÊÝpÞÞ·ß\ßþà¢áFáëâã3ã×äzååÂædç
+ç­èOèóé—ê;êàëƒì'ìËípîî¸ï[ïüð£ñGñëòó2ó×ôyõõÁöf÷	÷¬øPøóù™ú=úàû…ü(üÊýpþþ¶ÿ[ÿý ¢Gé1ÖyÁe
+®Nõ	˜
+;
+ß„%Ên¸Zü£GéŽ3ÖyÁf	­Qô™=áƒ(Ìo·[þ ¢!G!é"#3#Ö$y%%Á&f'	'­(Q(õ)—*=*á+„,',Ì-p..¸/Z/ü0£1F1è2Œ333×4y55Á6f77¬8P8ô9˜:<:á;ƒfe•Œ
+</BLOB>
+<BLOB blobid="5" size="802" compression="qt">
+ 5 xœíÁ   Â ÷Om                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      À‡5´ 
+</BLOB>
+<BLOB blobid="6" size="915" compression="qt">
+  „xœ„{üJ‡KK¬L=LÎM`MóNƒOO§P9PÊQ[QìR€SS£T5TÆUWUçV{WWX/XÁYRYäZu[[›\+\¼]M]Þ^q__“`'`·aKaÚbkbþc‘d dµeDeÕfhfûg‹hh®iAiÒjcjõk†llªm<mÍn_nðopp¥q6qÉrZrës~tt¢u1uÆvVvèwyxxy0yÀzRzâ{u||—}(}»~L~ßo€€’$¶‚H‚Ùƒlƒü„… …±†B†×‡f‡÷ˆ‹‰‰¬Š@ŠÐ‹c‹ôŒ†©Ž;ŽË^ð€‘‘£’7’Æ“Y“ê”~••Ÿ–0–Ä—V—ç˜w™™›š/š½›P›âœt™ž)ž¹ŸLŸÞ o¡¡’¢$¢´£G£Ø¤i¤ü¥¦!¦²§A§Õ¨f¨ö©ˆªª¬«=«Ï¬c¬ò­„®®ª¯9¯Ê°]°í±²²£³6³Å´X´éµ}¶¶ ·0·Á¸R¸ä¹vººš».»¼¼O¼á½r¾¾”¿'¿ºÀIÀÛÁoÁÿÂÃ!Ã³ÄHÄÖÅjÅúÆ‹ÇÇ¯ÈBÈÔÉeÉöÊ‡ËËªÌ>ÌÍÍaÍóÎ„ÏÏ¦Ð8ÐÉÑZÑíÒ€ÓÓ¡Ô5ÔÆÕXÕçÖ|××Ø.ØÁÙQÙåÚwÛÛšÜ)Ü¼ÝMÝßÞrßß“à&à¹áHáÚâkâÿãä#ä³åFåÕæjæüçŠèè­éAéÒêbêõë‡ììªí<íÌî^îïï‚ðð¤ñ7ñÈòZòíóôô¡õ3õÅöVöè÷zøø›ù.ù¿úRúãûsüü—ý(ýºþLþÞÿp   “%µGÚjþ"²CÕhùŠ		­
+?
+Ðcô„¨<Ì_ï£6ÆYê|Ÿ1ÄTçxœ-¿Pâr—(»LÜ o ÿ!“"#"´#F#Ú$i$û%&!&±'A'Ó(f(ö)ˆ**­+=+Ð,`,ó-„..¨/:/Ë0^0î122¢363Ç4X4é5{66ž707Á8S8å9v::œ;+;¿<Q<à=q>>”?)?¸@I@ÜApAÿB‘C"C´DFDÖEhEûFŒGG¯H@HÔIcIõmÔÁR
+</BLOB>
+<BLOB blobid="7" size="915" compression="qt">
+  „xœ„{üKK©L;LÌM^MðN€OO¤P5PÇQWQéR|SSŸT2TÃUTUäVxWW›X,X¾YOYáZq[[—\(\¹]J]Ü^n^þ_’`#`µaGa×bgbücdd±eBeÒfff÷g‰hh¬i=iÐj`jók‚ll¦m:mÊn\nìopp¢q2qÇrWrés{ttžu.uÂvTvåwvx	xšy,y¾zOzà{q||“}%}¸~I~Ûmþ€!´‚D‚Öƒiƒú„Œ……®†@†Ó‡c‡ôˆ‡‰‰©Š<ŠÎ‹`‹òŒƒ§Ž8ŽÉ\í}‘‘ ’4’Ã“V“è”z••›–-–Á—S—ä˜t™™˜š+š»›N›ßœp•ž&žµŸIŸÚ m þ¡¢!¢±£D£Ö¤e¤ú¥Š¦¦¯§>§Ñ¨c¨ô©†ªª©«9«Ì¬_¬ð­‚®®¦¯7¯Ç°[°é±~²²¡³2³Á´U´çµy¶¶·,·½¸O¸á¹tºº˜»*»¹¼K¼ß½o¾¾‘¿%¿·ÀFÀØÁlÁüÂÃÃ°ÄDÄÔÅgÅøÆ‡ÇÇ«È?ÈÐÉbÉóÊ…ËË¨Ì:ÌËÍ]ÍðÎÏÏ¢Ð5ÐÆÑWÑêÒ}ÓÓžÔ2ÔÃÕUÕåÖx××›Ø+Ø½ÙNÙâÚtÛÛ—Ü%ÜºÝJÝÝÞoß ßà$àµáFá×âhâüãää°åCåÒæfæøç‡èèªé>éÎê`êñë„ìì§í9íÊî[îìïðð¡ñ4ñÅòXòêó{ôôõ0õÂöRöå÷wø	ø™ù+ù»úOúßûpüü“ý%ý¸þIþÜÿlÿý #³EØgû°?Óeö‡		ª
+=
+Î`ñ‚¥8Ê[í~¡3ÃWçyœ-ÁQät˜+¼Màp”%¸HÚ l ý!"!"±#C#×$g$÷%‹&&®'?'Ð(d(ô)„**©+;+Í,^,ñ-‚..¦/7/È0Z0ë1|22 333Ã4V4ç5x66›7-7¿8P8á9s::˜;);»<M<Ü=n>>’?%?¶@F@ÚAlAýBŽC C±DCDÔEfEøF‰GG¬H=HÑI`IòJ„DsÁ!
+</BLOB>
+<BLOB blobid="8" size="899" compression="qt">
+ » xœíÁ1   Â õOm
+?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ¾¼c 
+</BLOB>
+<BLOB blobid="9" size="915" compression="qt">
+  „xœ„{üZu[[š\*\½]M]á^p__”`(`·aJaÚbnbýcd d²eEeÕfhfùgŠhh®i?iÑjbjôkˆllªm<mÌn`nòopp¥q8qÈr[rìstt¢u1uÃvUvæwzxx›y.yÁzPzâ{s||—})}»~M~Ýo€ €’%·‚I‚Ùƒjƒý„……³†B†Ö‡g‡÷ˆ‰‰‰®Š>ŠÒ‹c‹óŒ„ªŽ9ŽË]ñ‘‘£’6’Ç“X“ì”}••Ÿ–0–Ä—U—ç˜w™™šš.š¿›Q›âœu˜ž(ž¼ŸJŸÝ p ÿ¡‘¢#¢·£G£Ù¤i¤ü¥Œ¦¦²§A§Ó¨f¨ø©ˆªª««=«Ð¬c¬ò­ƒ®®ª¯9¯Ë°^°ï±²²¢³7³Å´Z´ëµ|¶¶Ÿ·1·Â¸S¸ä¹vºº›»,»¼¼O¼â½q¾¾•¿&¿ºÀJÀÛÁmÁþÂÃ"Ã³ÄHÄÖÅiÅûÆÇÇ¯ÈAÈÔÉeÉõÊˆËË«Ì?ÌÏÍaÍòÎ„ÏÏ¦Ð7ÐÉÑ[ÑíÒ~ÓÓ¢Ô3ÔÅÕWÕéÖz××œØ.ØÀÙRÙåÚvÛ	Û™Ü*Ü¼ÝPÝÞÞsßß“à%à¹áHáÛâlâÿã‘ä"ä²åFåÖæhæùçŠèè¯é?éÔêcêõë†ìì«í;íÍîaîïï„ðð¥ñ7ñËò[òîó~ôô õ2õÅöXöè÷zøøœù.ùÂúPúâûsüü—ý(ýºþLþÝÿp   ’&¶GÜlý±BÖh÷Œ		­
+>
+Ñbõ„ª:Ì`ð¤5ÈXë{Ÿ1ÃVæwœ.½Oãr–*»KÜ n ÿ!”"$"µ#F#Ù$k$ý%&&°'D'Õ(f(÷)‹**«+>+Ï,`,ô-…..©/8/Ë0]0í1€22¤343Ç4X4ê5{66ž7/7Á8T8ä9x::™;-;¾<O<á=s>>–?(?¹@L@ÛAmAÿB‘C"CµDFDÙEiEûF‹GG¯HCHÒIcIõJ‡KKªL>LÏM`MôN‚OO¦P8PÊQ\QíRSS¢T3TÄUVUèVzWWžX/XÀYQYãâÂZ
+</BLOB>
+<BLOB blobid="10" size="915" compression="qt">
+  „xœ„{ü[[—\'\¹]K]Ý^n__‘`$`µaGaØbjbúcŽdd®eBeÓfffõgˆhh«i=iÏj`jòk…ll¦m:mÊn]nîo~pp£q4qÅrXrés{ttŸu/u¿vRväwwxx˜y+y¾zMzà{q||“}'}·~K~Ûlý€#´‚E‚×ƒgƒû„‹……¯†?†Ó‡d‡õˆ‡‰‰«Š<ŠÏ‹_‹ñŒ‚§Ž7ŽÉ[í‘‘ ’3’Å“U“é”y••œ–.–Á—S—ã˜u™™˜š+š¼›N›àœq•ž&ž¸ŸHŸÛ l ý¡¢ ¢³£D£Ö¤e¤ù¥‰¦¦¯§?§Ï¨d¨ô©…ªª©«9«Í¬_¬ï­®®¦¯7¯Ç°[°ì±~²² ³3³Ã´V´èµy¶¶›·.·¿¸O¸á¹sºº˜»(»¹¼K¼ß½o¾¾’¿$¿·ÀGÀ×ÁkÁûÂŽÃÃ±ÄDÄÔÅfÅùÆ‰ÇÇ­È?ÈÐÉaÉòÊ†ËË©Ì;ÌÌÍ]ÍðÎÏÏ£Ð4ÐÆÑYÑéÒ|ÓÓŸÔ1ÔÃÕSÕæÖv×	×šØ,Ø¾ÙPÙáÚsÛÛ–Ü(Ü¹ÝLÝÛÞoß ß‘à#à¶áFáØâjâüãŽää¯åCåÔæeæöç†èè¬é=éÐêaêòë„ìì¨í8íËî]îíï€ðð¢ñ4ñÇòXòêó|ôôžõ/õÂöTöå÷vø	ø™ù,ù¾úNúÞûqüü•ý&ý·þIþÚÿlÿþ #³EØiùŒ®>Ódõˆ		ª
+<
+Ï`ñ¦7Ê\í~¡3ÄVèy.ÀSät˜+ºLào”&¸GÚ j ü!"""²#C#Ö$h$ù%‹&&­'@'Ò(c(õ)‡**¨+;+Ì,],ð-‚..¦/5/É0Z0ê1~22 323Ä4U4æ5x6
+6œ7+7¿8Q8â9u::•;*;»<L<ß=o> >“?%?·@H@ÙAjAýBŽCC²DDDÕEfE÷F‰GG­H?HÏI`IóJ„KK¨L;LÌM^MðN€OO¤P5PÈQXQêR}SSžT1TÂUTUåVxWW›X+X½YOYáZr#sÀB
+</BLOB>
+<BLOB blobid="11" size="899" compression="qt">
+ » xœíÁ1   Â õOm
+?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ¾¼c 
+</BLOB>
+<BLOB blobid="12" size="735" compression="qt">
+  ÐxœÐ/ýkbllÎm„n:nño§p\qqÉrs6sët¡uYvvÂwzx/xäyœzQ{{¼|r}(}à~•M€€·m‚%‚Úƒ„F„û…±†i‡‡Öˆ‹‰A‰÷Š¬‹cŒŒÎ†Ž9Žð¥^‘‘É’“5“ì”¡•V––Ã—y˜.˜æ™›šQ››¿œs(áž—ŸJ  ¸¡m¢#¢Ú£¤G¤ý¥³¦h§§Ó¨‹©A©õª««c¬¬Î­„®<®ð¯¨°\±±È²€³5³í´¡µY¶¶Å·x¸/¸å¹šºQ»»¼¼r½(½ß¾•¿JÀÀ¹ÁoÂ%ÂÛÃÄGÄýÅ²ÆiÇÇÓÈ‰É?ÉõÊ«ËbÌÌÐÍ„Î9ÎïÏ¦Ð^ÑÑÉÒ~Ó6ÓêÔ¢ÕVÖÖÃ×yØ/ØåÙšÚSÛÛ¼ÜtÝ*ÝßÞ”ßKà à¸áoâ%âÝãäEäüå³ægççÓèŠé@éøê­ëcììÍíƒî:îðï§ð]ññÉò~ó4óìô õVööÂ÷xø0øäùœúPûû¼üsý*ýàþ”ÿL   ¸m#ÚGû³hÔŒ	?	÷
+«bÎ„:ñ¦]É5ë XÃx0ä›P¼r*Þ”J  ¸!m"%"Ù#$G$ü%±&g''Ô(‰)?)õ*¬+a,,Í-ƒ.9.ï/¥0]11Ê2343í4¡5Y66Â7z8/8ä9œ:Q;;¾<t=(=Þ>–?K@ @ºAnB%BÚCDFDþE³FhGGÓH‰IBI÷J­KbLLÍMƒN9NïO§P\QQÉRS6SêT¢UXVVÄWxX/XåYœZR[[¼\r])]ß^•_J` `¸amb$bÚcdFdüe²fhggÔhŒi@iøj«Åe
+</BLOB>
+<BLOB blobid="13" size="735" compression="qt">
+  ÐxœÐ/ýllËmn7nîo¤pZqqÆr{s3sétŸuUv
+v¾wwx,xáy˜zO{{º|n}%}Ý~’Iþ€´j‚!‚×ƒ‹„D„÷…®†f‡‡Òˆˆ‰=‰ôŠ©‹`ŒŒÌ‚Ž6Žî£Z‘‘Æ’|“3“é”Ÿ•S––À—v˜,˜â™™šN››»œp%Ýž“ŸGŸÿ ´¡k¢ ¢×£Ž¤D¤ú¥°¦f§§Ñ¨ˆ©>©ñª¨«`¬¬Ì­®8®î¯¤°Z±±Æ²}³2³é´ŸµU¶¶Á·u¸-¸â¹–ºN»»¹¼o½%½Û¾’¿F¿þÀµÁlÂ"ÂØÃŒÄDÄùÅ¯ÆfÇÇÏÈ‡É;ÉòÊ§Ë`ÌÌÌÍ‚Î6ÎëÏ£ÐYÑÑÇÒ{Ó2ÓèÔŸÕSÖ	ÖÀ×wØ,ØãÙ—ÚOÛÛ¹ÜpÝ'ÝÜÞßIßüàµálâ"âØãŒäAäúå°ædççÑè‡é=éôêªë`ììÉí€î5îíï¤ðZññÇòyó0óéôõRö	ö¾÷uø-øáù˜úNûû¹üoý'ýÝþ’ÿHÿý µj ÖŒDù°eÑˆ	;	ô
+§`Ë€8í£ZÅ|2èœU
+Àt-à˜L¹o'ÛGÿ ¶!i"""×#Ž$C$ù%¯&d''Ñ(…)<)ñ*©+^,,Ê-€.5.ì/¡0[11Ç2}323é4ž5U66¾7w8,8á9˜:N;;º<p=&=Û>“?H?ý@¶AlB!B×CDDDúE¯FeGGÏH†I>IôJ©K_LLÊMN6NëO¤PYQQÆR|S2SæTŸUUV	VÁWvX,XáY™ZO[[¹\o]&]Ü^’_G_ü`µaib!bÖcdBdùe®feggÑhˆi>iôj§k^ ¶i
+</BLOB>
+<BLOB blobid="14" size="725" compression="qt">
+ 
+ü€xœíÁ   Â ÷Om7                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          àÏ ý 
+</BLOB>
+<BLOB blobid="15" size="735" compression="qt">
+  ÐxœÐ/ý{{½|r})}Þ~”J€ €·o‚$‚Ùƒ‘„E„ü…²†i‡‡Óˆ‹‰?‰õŠ¬‹aŒŒÎƒŽ:Žï¥^‘‘È’“7“ê” •W––Ã—x˜0˜å™ššS››¿œr(ßž”ŸL  ·¡m¢#¢Ù£¤G¤ü¥³¦h§§Õ¨‰©A©÷ª««b¬¬Í­„®9®ñ¯¥°]±±Ì²³5³ê´¡µV¶¶Â·y¸.¸å¹ºS»»½¼t½(½Þ¾•¿KÀÀºÁnÂ#ÂÚÃÄEÄþÅ±ÆgÇÇÔÈ‹É@ÉöÊ­ËcÌÌÍÍ„Î9ÎðÏ¥Ð_ÑÑÉÒ€Ó5ÓëÔ¢ÕVÖÖÃ×yØ0ØçÙšÚRÛÛ¾ÜsÝ)ÝßÞ—ßLàà¸ámâ#âÜãäHäûå²æhççÔè‰éAéöê­ëcììÍí…î9îðï¦ð^ññÈò~ó5óêô¡õYööÅ÷yø/øåù›úPûû½ürý)ýßþ–ÿL  ·o$ÛGû²hÕ‰	?	õ
+«aÏƒ9ñ§]Ë~7ê WÃy.å›R¼t)Þ–L  ·!m"#"Ü#‘$F$ü%±&i' 'Ô(‰)?)ö*«+a,,Í-….;.ñ/¦0]11È2343ê4 5V66Ã7z808å9›:S;;¾<s=(=á>•?L@@¸AnB#BÚCDFDüE±FgGGÓH‰I@IõJ«KaLLÍM†N9NòO¦P^QQËR~S6SêT£UWVVÃWyX0XåYœZR[[½\t]+]à^–_J``¸anb&bÛcdEdüe³fgggÕh‰i?iöj®kcllÏm…n;nño¦p\qqÊrs5sêt uYvvÂwyx0xæyšzR!ýe
+</BLOB>
+<BLOB blobid="16" size="735" compression="qt">
+  ÐxœÐ/ý{»|p}'}Û~Fý€³l‚"‚Öƒ„C„ù…¯†e‡‡Ïˆˆ‰;‰óŠ¨‹^ŒŒÌ€Ž7Žë¢[‘‘Æ’{“3“è”•S–	–À—t˜-˜ã™˜šO››»œo$ÝžŸIŸþ ´¡j¢!¢Ö£¤C¤ù¥°¦f§§Ò¨†©>©óª¨«_¬¬É­®5®î¯£°Z±±Ç²{³2³ç´žµR¶¶À·v¸,¸â¹˜ºO»»»¼q½&½Ú¾’¿H¿þÀ¶ÁkÂ!ÂØÃÄBÄúÅ¯ÆcÇÇÑÈˆÉ<ÉóÊªË`ÌÌÉÍÎ6ÎíÏ¢Ð[ÑÑÇÒ}Ó3ÓèÔŸÕTÖ	ÖÀ×wØ-ØãÙ˜ÚOÛÛºÜpÝ&ÝÝÞ“ßIßÿà´áiâ!âØãŽäDäøå®æeççÒè…é>éôêªë`ììÉí‚î6îíï¢ð[ññÅòzó2óæôžõUööÁ÷uø,øãù™úMûû»üpý%ýÛþ“ÿGÿÿ ´l ØDø°fÑ‡	;	ò
+§_Ì6í¤[Ç|3çœTÁu+ã˜Nºq&Û“Iÿ µ!k" "Ø#$D$ù%­&f''Ñ(…)<)ô*¨+],,É-‚.8.î/£0Y11Å2}303æ45R6	6À7w8,8â9™:O;;»<q=&=Ý>’?H?ÿ@´AkBBØCDCD÷E¯FcGGÏH†I=IòJ§K_LLËM‚N7NîO£P[QQÇR{S3SçTŸUTV
+VÀWvX-XâY™ZN[[»\q]']Ý^’_H_ÿ`µajb"bØcdAdùe¯feggÒh…i<iójªk_llÌm‚n8nîo£pYqqÇr}s1sçtuUv
+v¾wwx-xãy–zO{×½i—
+</BLOB>
+<BLOB blobid="17" size="725" compression="qt">
+ 
+ü€xœíÁ   Â ÷Om7                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          àÏ ý 
+</BLOB>
+<BLOB blobid="18" size="735" compression="qt">
+  ÐxœÐ/ýŒÎ†Ž:Žò¥_‘‘È’~“5“ê”£•X––Â—x˜/˜æ™šR››½œr,àž–ŸK  ·¡q¢#¢Û£¤H¤ü¥´¦i§§Ô¨‰©?©øª««c¬¬Í­„®;®ð¯¨°]±±È²€³5³ì´¢µX¶¶Ä·x¸1¸å¹œºS»»¼¼r½)½à¾•¿LÀÀ¸ÁnÂ&ÂÚÃ’ÄFÄÿÅ±ÆkÇÇÓÈŠÉCÉ÷Ê¯ËbÌÌÍÍƒÎ;ÎòÏ§Ð\ÑÑÈÒ€Ó6ÓìÔ£ÕXÖÖÄ×|Ø0ØçÙšÚPÛÛ¿ÜrÝ,ÝßÞ•ßKàà·ápâ%âÜã‘äHäýå±æhç!çÓè‹é@é÷ê­ëaììÐíƒî;îñï§ð]ññÈòó6óíô¢õVööÅ÷yø0øæùœúPûû½üsý)ýàþ—ÿJ  ¸o&Û’Gý²gÔ‹	A	ö
+«bÐ…:ñ¦_Ê6ë£WÅz0åšS¾s+à”J  ¸!m"%"Ú#$H$ü%±&h''Ó()A)ö*¬+d,,Ð-ƒ.;.ð/¥0^11È2€353ê4 5Z66Â7z808æ9œ:Q;;½<r=(=à>”?L@ @¹AmB%BÙCDEDýE±FiGGÕHŠI?IõJ®KbLLÏM„N:NñO¦P\QQÌR€S6SêT¤UYVVÄWyX/XèYšZS[	[½\r],]Þ^—_K``¸anb%bÛcdGdüe²fgg gÔhiAiöj«kdllÎm…n;nïo©p]qqÈrs7sët uZvvÄwxx2xæy›zR{{½|v}(}â~•M€€·m‚'‚Úƒ„E„þ…³†g‡‡ÖˆŠ‰C‰õŠ­‹bŒ!e²
+</BLOB>
+<BLOB blobid="19" size="735" compression="qt">
+  ÐxœÐ/ý‚Ž7Žî¢[‘‘Å’{“2“è”ž•U––¿—t˜,˜á™™šM››¸œo'Ýž’ŸGŸþ ´¡l¢ ¢Ø£Œ¤D¤ù¥°¦e§§Ð¨†©<©óª¨«_¬¬Ê­®6®ì¯¤°X±±Å²|³2³è´ŸµT¶¶Á·v¸-¸â¹˜ºO»»·¼n½%½Ü¾’¿H¿þÀ´ÁkÂ"ÂØÃŽÄCÄúÅ®ÆfÇÇÎÈ‡É>ÉôÊªË_ÌÌÊÍ~Î8ÎîÏ¤ÐXÑÑÅÒ}Ó2ÓéÔžÕUÖÖÁ×wØ-ØãÙ—ÚLÛÛ»ÜoÝ'ÝÜÞßHßÿà´ákâ"âØãŽäCäúå¬æeççÒè†é=éóêªë]ììËí€î7îîï¤ðZññÄò|ó3óéôŸõSööÁ÷vø,øáù™úMûûºüpý&ýÜþ’ÿFÿý ´l!ØDù¯dÐˆ	<	ò
+¨_Ì‚6î£[Æ|3èŸTÁv,à—N¹o'Ü‘Gþ µ!i"!"Ö#Œ$D$ù%­&d''Ð(ˆ)>)ó*©+`,,Ì-€.8.í/¢0[11Ä2|323ç45U6
+6¿7w8,8ã9˜:N;;º<m=%=Ý>‘?G?ý@µAjB B×CŒDBDùE®FeGGÑH‡I<IòJ©K_LLÌMN7NìO£PXQQÇR}S1SçTŸUTVVÁWuX,XãY—ZN[[¹\o]']Û^“_I_ý`¶ajb"b×cdBdùe®fdggÑhˆi>iòj¨k_llËm‚n7nío¤pZqqÅr|s2sçtuUv	vÁwux-xãy—zO{{º|q}%}Ý~’Iÿ€³j‚"‚×ƒŒ„B„ú…°†d‡‡Ñˆ‡‰>‰ñŠª‹_ŒŒÊKBi‰
+</BLOB>
+<BLOB blobid="20" size="725" compression="qt">
+ 
+ü€xœíÁ   Â ÷Om7                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          àÏ ý 
+</BLOB>
+<BLOB blobid="21" size="735" compression="qt">
+  ÐxœÐ/ýŸK  ¹¡p¢%¢Ú£’¤E¤û¥³¦g§§Ó¨‹©?©øª««e¬¬Ï­„®:®ð¯¨°^±±È²³4³í´ µY¶¶Å·z¸1¸æ¹œºP»	»½¼u½*½ß¾”¿NÀÀºÁoÂ'ÂÚÃ’ÄGÄþÅ³ÆiÇÇÕÈŠÉBÉöÊ¬ËcÌÌÎÍ„Î9ÎóÏ¥Ð^ÑÑÉÒ€Ó6ÓêÔ£ÕXÖÖÄ×zØ/ØçÙ›ÚPÛÛ¼ÜrÝ+ÝàÞ”ßLàà¸ámâ$âÙãäIäýå²æiççÓè‰éBéùê«ëcììÏí…î;îðï§ð]ññÉò~ó6óîô¡õYööÄ÷yø1øåùžúQû	û¾üsý)ýàþ–ÿL  ¸m%ÚGþ´jÖ‰	B	õ
+«aÏƒ9ñ§\È~7ê¢WÃx/è›QÀs*à—M   ¸!o"%"Û#$E$û%±&g''Ô(‹)@)ö*­+b,,Ï-„.;.ð/¥0^11È2€343í4 5X66Â7z808å9œ:Q;;½<r=)=à>•?K@@ºAnB#BÙCDEDûE³FiGGÕHŠICIøJ­KaLLÏM†N:NñO¦P\QQÊR~S7SìT¡UXVVÃW{X/XèYœZR[[¼\v]*]á^•_K``·aob%bÙcdHdýe³fhg gÕh‰i?i÷j¬kallÎmƒn;nïo§p\qqÊr€s5sìt uYvvÂwzx/xäyšzQ{
+{¼|r}*}Þ~”N€€¹o‚#‚Ûƒ„E„þ…²†i‡‡ÓˆŠ‰B‰÷Š®‹bŒŒÎƒŽ;Žð¥^‘‘È’~“8“ê”¢•X––Ä—y˜0˜ç™›šS›	›½œs,Þž•'Ue›
+</BLOB>
+<BLOB blobid="22" size="735" compression="qt">
+  ÐxœÐ/ýŸý µ¡l¢"¢Ö£Ž¤B¤ù¥°¦c§§Ð¨‡©<©ôª¨«`¬¬Ê­®8®í¯¤°[±±Å²z³0³è´µT¶	¶À·w¸,¸ã¹™ºN»»º¼q½'½Ú¾‘¿I¿ýÀµÁkÂ"Â×ÃŽÄDÄùÅ°ÆeÇÇÑÈ‡É>ÉóÊ§Ë`ÌÌËÍÎ6ÎîÏ¢ÐYÑÑÅÒ}Ó2ÓåÔŸÕUÖ
+Ö¿×wØ,ØâÙ˜ÚMÛÛ¸ÜoÝ'ÝÝÞ‘ßIßýàµájâ!âÕãŒäDäúå­æfççÐè„é>éôê¨ë_ììÊí‚î7îîï¤ðZññÆò{ó3óéôžõTööÁ÷wø,øãù™úNûû»üpý&ýÜþ“ÿHÿþ µj!ÖŒDú°fÑ†	=	ò
+¦]Ì~6ì¤XÅ{2çT	Às,ã™M»o'Ü’Hü µ!j"!"Ö#Œ$@$÷%®&d''Ñ(†)=)ò*ª+^,,Ë-.6.í/¢0[11Ä2|313é45U6
+6¿7w8+8ã9—:N;;¹<o='=Û>’?I?þ@¶AkB B×CŒDBDøE°FeGGÑH‡I>IôJ©K_LLÌMN8NìO£PXQQÅR{S3SéTžUTV
+VÀWwX,XãY™ZM[[¹\q]']Ý^’_H_ÿ`´akb"bÕcŒdDdúe¯feggÒh†i;iój©k_llÉm€n7nìo£pXqqÆr{s3sçtuTv
+v½wwx,xây—zN{{º|m}'}Û~‘Iÿ€´l‚‚ØƒŒ„B„ú…¯†d‡‡Ïˆ‡‰>‰ôŠ©‹_ŒŒË€Ž8Žì¡Z‘‘Å’{“3“ç”ž•U–
+–Á—t˜-˜â™˜šO››¹œo'Ûž“ŸGx•i|
+</BLOB>
+<BLOB blobid="23" size="725" compression="qt">
+ 
+ü€xœíÁ   Â ÷Om7                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          àÏ ý 
+</BLOB>
+<BLOB blobid="24" size="735" compression="qt">
+  ÐxœÐ/ý³ë´ µV¶¶Ã·z¸/¸ä¹šºP»	»¼¼s½)½ß¾•¿JÀÀ¹ÁqÂ&ÂÝÃ’ÄIÄûÅ±ÆgÇÇÓÈ‰É?ÉõÊ«ËdÌÌÏÍƒÎ;ÎòÏ«Ð]ÑÑÍÒƒÓ9ÓïÔ¤Õ[ÖÖÈ×{Ø0ØæÙšÚPÛ	Û¿ÜvÝ,ÝßÞ•ßKàà·ámâ$âÚã‘äGäýå³æiççÓè‰é?éõê¬ëaììÎí„î:îðï¦ð\ññÌò‚ó9óïô¢õXööÇ÷xø.øæùšúPûû¼üvý,ýßþ•ÿL  ¹o%ÚFü²iÓ‰	?	õ
+«aÎ…;ñ§]Êƒ4ê VÃx.èžTÁr(â˜N  ·!p"&"Ü#’$H$ü%³&h''Õ(‰)A)õ*¬+b,,Î-„.:.ð/¦0]11Ê2€363ë4¢5X66Â7x8.8ä9š:P;;½<s=)=à>–?O@@¹AoB$BÞC”DEDûE³FgGGÓH‰I?IõJ«KbLLÍMƒN9NïO¥P\QQÈR~S5SëT¡UWVVÃWzX0XäYšZP[[¼\r])]ß^•_K``¸anb$bÛc‘dHdþe·fgggÓh‰i@iöj¬kellÏm…n;nño¥paqqÊr€s4sít uWvvÃwyx0xæyœzR{{¼|r}(}Þ~”J€ €ºm‚#‚Ùƒ„F„ü…²†h‡‡ÕˆŽ‰?‰õŠ«‹aŒŒÎ‡Ž=Žó©_‘‘Ë’‚“8“î”¢•X––Ä—z˜.˜ä™›šQ››½œs)ßž•ŸL  ¹¡o¢#¢Ü£’¤E¤û¥²¦h§§Ô¨‹©A©÷ª­«a¬¬Í­ƒ®9®ï¯¥°\±±È²~³4Fäe¡
+</BLOB>
+<BLOB blobid="25" size="735" compression="qt">
+  ÐxœÐ/ý´šµP¶	¶½·w¸,¸á¹˜ºM»»¹¼o½%½Ü¾‘¿G¿üÀ²ÁkÂ!ÂÖÃŒÄBÄùÅ¯ÆeÇÇÐÈ‚É<ÉòÊ¨Ë`ÌÌÌÍÎ8ÎîÏ¤ÐZÑÑÇÒ}Ó3ÓéÔŸÕUÖÖÁ×uØ+ØãÙ”ÚIÛÛ¹ÜoÝ%ÝÙÞßIßÿàµákâ!â×ãäCäúå°æfççÏè…é<éòê¨ë^ììÊíî7îíï¤ðZññÆò|ó3óéôœõTööÁ÷tø+øáù”úJû û¶üpý&ýÙþÿFÿü µk!×Cú°fÏ†	<	ò
+©_Ì‚8î¤ZÆ}1çS	¿u+â˜O»o%Û’Hþ ±!j" "Ö#Œ$C$÷%¯&e''Ò(…)<)ð*¦+\,,Ì-.7.í/¤0Z11Æ2|333è4Ÿ5U6	6¿7u8+8á9—:M;;º<p='=Ý>“?I?ÿ@²AiBB×CŽDBD÷E­FdGGÎH„I9IðJ¦K\LLÇM}N3NéO PVQQÅR{S1SçTUTV
+VÀWvX-XàY–ZL[[¹\o]%]Ü^“_I_ÿ`µakb!b×cŽdDdúe°fdggÐh†i<iój©k_llÉm€n6nìo¢p[qqÄr{s.sétuSv
+vÀwsx*xây™zL{{¸|n}$}Û~‘Gý€¶j‚ ‚ÖƒŒ„C„ù…¯†e‡‡Òˆˆ‰;‰òŠ¨‹]ŒŒÊŽ7Ží£Z‘‘Æ’|“2“è”œ•R––¾—u˜+˜Þ™”šK››·œm#ÚžŸFŸÿ ¶¡l¢¢Ø£Ž¤?¤ø¥®¦d§§Ñ¨‡©>©ôªª«^¬¬Ê­€®6®ì¯¢°Y±±Å²{³1³è¼Óhµ
+</BLOB>
+<BLOB blobid="26" size="386" compression="qt">
+ «@xœíÁ   ‚ ÿ¯nH@                                                                                                                                                                                                                                                                                                                                                                       ï«‹ 
+</BLOB>
+<BLOB blobid="27" size="735" compression="qt">
+  ÐxœÐ/ýÕ]ÖÖÃ×zØ.ØåÙÚQÛÛ¾ÜuÝ(ÝßÞ–ßJà à½ámâ#âÛã’äEå å³æjçç×èéBéöê­ëcììÍí„î;îñï¥ð`ññÉòó4óëô¢õYööÃ÷zø1øäù›úRûû¾üuý)ýàþ”ÿK  ¸p#ÙHþ±hÚŠ	A	÷
+®bÐƒ:ð§^É€4ê¡XÃy1èšR	¼s+á”L  º!n"$"Û#’$F$ý%³&g''Ô(‹)?)ö*­+a,,Î-….9.ó/ª0]11Ë2~353ð4£5V66Å7x8/8æ9:T;
+;¾<t=(=ß>–?Q@ @·AnB$BÜCDFDýE´FgG"GÖHŒIBIöJ­KhLLÏM†N9NñO¨P_QQÉR€S7SêT¡UXVVÃWyX0XäY›ZQ[[¼\s])]à^”_K``ºamb#bÛc’dEdüe´fnggÕh‹iBiöj­kcllÎm…n@nðo§p]qqÈrs6sìt uWvvÄwxx/xæyzP{{¾|u}(}ß~–M€ €¸o‚*‚Üƒ„G„ý…´†h‡‡Óˆ‰‰@‰ûŠ«‹aŒŒÏ†Ž9Žð§_‘‘Ì’€“7“ê” •X––Â—y˜0˜ç™žšQ››¿œs*äž”ŸK  ¹¡p¢$¢Û£‘¤E¥ ¥³¦i§§Ô¨‹©C©õª¬«d¬¬Î­‰®<®ï¯¦°^±±Ë²³5³ì´£µW¶¶Å·x¸/¸æ¹šºP»»¾¼r½+½ß¾–¿JÀ À·ÁnÂ&ÂÜÃÄFÄþÅµÆgÇÇÖÈÉ@É÷Ê®ËeÌÌÏÍ†Î9ÎðÏ§Ð^ÑÑÈÒÓ6ÓêÔ ‰.d
+</BLOB>
+<BLOB blobid="28" size="735" compression="qt">
+  ÐxœÐ/ýÖÖ¿×vØ*ØÞÙ™ÚMÛÛºÜmÝ$ÝÛÞ’ßEßüà¶ájâ â×ãŽä>äùå¯æfççÐè‡é>éòê©ë_ììÉí€î7îîï¡ðWññÆò}ó1óèôšõUöö¿÷vø*øáù—úMûû»üný%ýÝþÿGÿú µlÖ?ú®dÒ†	=	ó
+ª^Ë6ì [Ä|0ãžUÀr-ã—Nµp&Ý‘Dû ¶!i" "×#Ž$B$ù%¯&c''Í(ˆ);)ò*©+Y,,Ê-‚.5.ë/£0Z11Ç2{3.3è4Ÿ5S66½7u8+8â9™:O;;¹<p=$=Û>Ž?I?ü@³AjB!BÔC‹DCDùE°F`GGÒHˆI>IòJ¥K`LLËM‚N6NèO£P[QQÅR|S0SæTUTVV»WuX-XàY—ZM[[¸\o]&]Ý^_H_ÿ`¶ahb b×cŽdBdùe°ffggÑh‡i>iòj¨k_llÊmn8nìo£pYqqÄr{s2sétœuSvvÁwtx+xãy™zL{{º|q}%}Ø~’Iý€´k‚!‚ØƒŒ„C„ù…­†d‡‡Ïˆ…‰<‰óŠ§‹]ŒŒÌŽ5Ží¤[‘‘Å’|“3“ç”•P––¿—u˜,˜ã™—šM››»œo"ÜžŸGŸþ ¶¡i¢ ¢×£Ž¤A¤ø¥°¦f§§Ñ¨ˆ©:©ñª©«`¬¬Ç­‚®8®ì¯£°Z±±Ç²{³1³è´œµS¶
+¶Á·t¸+¸ß¹–ºL»»º¼j½$½Û¾“¿F¿üÀ°ÁkÂ"ÂØÃŒÄCÄöÅ°ÆdÇÇÒÈ†É<ÉóÊªË`ÌÌËÍ‚Î5ÎìÏ£ÐWÑÑÄÒ{Ó3ÓæÔœÕT’h™
+</BLOB>
+<BLOB blobid="29" size="339" compression="qt">
+ ì xœíÁ1   Â õOmo                                                                                                                                                                                                                                                                                                                         à7ì< 
+</BLOB>
+<BLOB blobid="30" size="735" compression="qt">
+  ÐxœÐ/ýû½ütý+ýßþ—ÿJ  ¹p&Ý‘Gû±lÔŒ	B	õ
+°cÍ†9ð¨_Ê4ë¢XÂx/åšU¼s*Þ–M   ·!n")"Û#$E$ü%²&i' 'Ó(‹)B)ú*®+a,,Ï-†.=.ð/¨0^11Ë2353ë4¢5V66Ä7x8/8å9œ:P;;¾<r=(=ß>–?M@ @·AoB%BÜCDGDýE¸FhGGÖH‰I?IöJ­KaLLÏMƒN:NñO¥P\QQÉR€S4SêT¡UXVVÂWyX1XäYšZR[	[¼\s].]Þ^”_L``ºaqb$bÛc’dFdýe¸fgggÕhi?iöj­kcllÓmƒn9nðo§p]qqÈr~s6sít¤uZvvÅwxx0xçyžzQ{{¿|u},}à~—J€€¸n‚%‚Ùƒ„F„ý…±†h‡‡×ˆ‰@‰øŠ«‹aŒŒÐƒŽ:Žñ¨_‘‘É’€“7“ë”¡•X––Â—y˜4˜ä™›šR››¼œs*àž”ŸK  º¡p¢$¢Û£’¤E¤ü¥³¦j§§Õ¨Œ©?©÷ª®«d¬¬Ï­†®<®ð¯§°^±±È²~³5³ì´ µW¶¶Â·|¸/¸æ¹šºQ»»Â¼r½(½ß¾—¿NÀ À¸ÁoÂ%ÂÙÃÄGÄþÅ±ÆhÇÇÓÈŠÉ@É÷Ê«ËbÌÌÏÍƒÎ9ÎðÏ§Ð_ÑÑÈÒ€Ó:ÓîÔ ÕXÖÖÂ×}Ø1ØäÙ›ÚRÛ	Û¼ÜtÝ*ÝáÞ•ßLàà¹ámâ$âßãäFäýå³æjççÕèŒé?éöê±ëaììÎí…î9îóï¦ð^ññÌòƒó7óíô õXööÉ÷yø0øçùšúQû¸€eþ
+</BLOB>
+<BLOB blobid="31" size="735" compression="qt">
+  ÐxœÐ/ýüpý'ýÛþÿGÿþ µk"ÖŒC÷­dÑˆ	>	ò
+¨_Ê‚6é¤[Æy1èžTºt+â–M¸o&ÚŽIü ³!j"!"Ø#Š$A$ù%¯&a''Ð(‡)>)ò*ª+],,Ë-‚.6.í/¤0Z11Ä2{313ç4Ÿ5R66Á7t8+8â9•:L;;»<n=$=Ø>“?I?ý@´AgB!BØCŒDCDùE°FdGGÑH…I7IïJ©K]LLËMN6NíO¡PXQQÂR}S0SæTžUTVV¿WvX-XÝY“ZN[[¹\p]']Û^‘_H_ÿ`³aib b×cŽdBdöe¯fcggÐhˆi;iòj©k`llËmzn5nìo¤pVqqÄr{s2sétŸuSv
+vÁwux(xÞy™zM{{»|q}%}Ü~“Fù€°k‚"‚Õƒ‹„C„ú…­†e‡‡Ïˆ†‰=‰ôŠ§‹^ŒŒÈ€Ž7Ží¤[‘‘Å’|“3“æ”š•T––¾—u˜-˜à™—šM››¸œo'ÝžŸHŸÿ ¶¡l¢!¢×£Ž¤B¤ù¥¯¦f§§Í¨ˆ©<©óª©«`¬¬Ë­‚®8®ì¯ž°Z±±Ã²z³1³å´œµS¶¶¾·t¸,¸ã¹–ºL»»»¼n½%½Ü¾“¿G¿ýÀ´ÁkÂ!ÂÕÃŒÄCÄúÅ­ÆdÇÇÏÈ†É<ÉôÊ§ËZÌÌÌÍÎ5ÎíÏ Ð[ÑÑÅÒ|Ó3ÓéÔÕTÖÖ»×vØ-ØàÙ—ÚNÛÛ¹ÜoÝ&ÝÝÞ‘ßEßÿà¶áiâ â×ã‹äBäùå°æcççÒèˆé;éòêªë]ììËí‚î1îìï£ðZññÇò{ó2óéôõSööÁ÷uø,øãù–úIûûº½h’
+</BLOB>
+<BLOB blobid="32" size="306" compression="qt">
+ e xœíÁ1   Â õOm	O                                                                                                                                                                                                                                                                                        >e< 
+</BLOB>
+<BLOB blobid="33" size="735" compression="qt">
+  ÐxœÐ/ý"Ü#’$E$ý%´&g''Õ(Œ)@)÷*®+d,,Ï-….9.ð/§0^11È2363í4¤5W66Â7x8/8æ9:P;;¾<u=(=à>—?M@@¸AoB%BÙCDGDýE±FhGGÖH‰I?IöJ®KaLLÐMƒN:NðO¨P\QQÊRS4SëT¢UYVVÃW}X1XåY›ZR[[½\t]*]Þ^•_L` `·amb$bÛc“dFdýe±fgggÕhŒi?iöj­kdllÎm†n9nïo¨p^qqÉr€s7sít¡uXvvÂw|x0xæyšzQ{{¾|r})}à~›J€€¸p‚&‚Ùƒ‘„H„þ…±†l‡ ‡ÓˆŠ‰A‰øŠ¬‹bŒŒÐ„Ž:Žñ¥\‘‘É’„“4“ë”¡•Y––Ã—y˜1˜ä™›šU›	›¼œt*áž”ŸL  º¡n¢(¢Ü£¤F¤ý¥´¦g§§Õ¨‰©?©öª­«a¬¬Î­…®<®ð¯§°^±±È²³7³î´ µW¶¶Â·x¸0¸ç¹¢ºQ»»¿¼r½)½à¾—¿KÀÀ¸ÁsÂ#ÂÙÃÄGÄûÅ±ÆhÇÇÓÈŠÉDÉøÊ«ËaÌÌÐÍƒÎ9ÎñÏ¨Ð_ÑÑÉÒ€Ó4ÓëÔ¡Õ\ÖÖÃ×zØ1ØçÙ›ÚRÛÛ¼ÜsÝ*ÝâÞ•ßLà à»ámâ$âÜãäFåå´ægççÕèŒéCé÷ê®ëeììÏíŠî9îñï§ð^ññÉò€ó7óêô¡õ\ööÂ÷yø0øæùšúPûû¿ürý-ýàþ”ÿJ  ¹p#Ú‘Gþ±hÓŒ	@	÷
+«bÍ„:ñ¥\É4ë¢YÃz1äœR	½t+Þ–M   ·!n"%Óädç
+</BLOB>
+<BLOB blobid="34" size="735" compression="qt">
+  ÐxœÐ/ý#Ž$B$õ%°&d''Ñ(ˆ)<)ó*ª+`,,Ç-.5.ì/£0W11Ä2{333é4œ5T66¾7u8,8â9™:M;;º<q=%=Ü>“?I?ý@´AkB"BÕCŒDCDúE­FdGGÏH…I<IóJªK]LLÌMN7NíO PYQQÆR}S1SçTžUUV	V¿WvX-XáY—ZN[[µ\p]&]Ú^‘_E_û`³aib!bØc‹dBdúe­fcggÎhˆi<iój©k\llËm‚n6nìoŸpZqqÅr|s/sétuTvvºwux,xãy–zM{ {»|n}%}Ý~“Cþ€µl‚"‚Òƒ„C„ú…®†e‡‡Ðˆ†‰=‰ôŠ¤‹^ŒŒÌ€Ž6Žê¡X‘‘Æ’}“0“ç”ž•U––À—v˜-˜á™˜šN››¹œo&ÝžŸHŸÿ ¶¡j¢!¢Ø£‹¤B¤ù¥­¦c§§Ñ¨„©;©ïªª«\¬¬Ê­‚®5®ì¯¤°[±±Á²|³2³é´µT¶¶¿·u¸,¸ã¹™ºM»»»¼o½%½Ù¾“¿G¿ýÀ´ÁlÂÂÕÃŒÄDÄ÷ÅªÆeÇÇÏÈ‡É=ÉôÊ§Ë^ÌÌÌÍ|Î6ÎíÏ¤Ð[ÑÑÅÒ|Ó0ÓçÔÕTÖÖ¿×vØ-ØàÙ”ÚOÛÛ¸ÜoÝ'ÝÚÞ‘ßIßüà²ájâ!âØã‹äCäúå°ædççÑèˆé<éóêªë`ììÇí‚î6îìï£ðZññÄò{ó3óæôšõSöö¾÷uø,øßù–úLûû»üký&ýÝþÿGÿþ ±l ÖC÷­dË…	<	ô
+§^È€6î¡TÆ}0çšU	Àv-à—N¹l'Û’Iù ³!j"!"ØO¿hš
+</BLOB>
+<BLOB blobid="35" size="258" compression="qt">
+ ¥ÀxœíÁ1   Â õOm                                                                                                                                                                                                                                        ào¥í 
+</BLOB>
+<BLOB blobid="36" size="735" compression="qt">
+  ÐxœÐ/ýHI?IöJ­KbLLÐMƒN;NòO©P]QQÊR~S5SïT¡UXVVÂWyX4XäYšZQ[[Á\t](]ß^–_J``¸anb&bÜc“dGdýe³fjggØh‹i?iöj­kdllÐmƒn;nòo¥p]qqÊr~s7sêt¡uWvvÅw{x.xåyzP{{¿|r})}á~”K€€ºm‚$‚Úƒ‘„G„û…±†g‡‡Õˆ‰‰@‰÷Š«‹bŒŒÎ…Ž;Žò¥\‘‘Ê’„“4“ë”¢•X––Ã—~˜1˜å™œšW››¾œt+ßž•ŸP   ·¡m¢(¢ß£’¤E¤ü¥´¦g§"§Õ¨‰©@©ûª¯«a¬¬Ð­ƒ®9®ô¯¨°_±±Ë²³5³ì´ µW¶¶Æ·y¸0¸ä¹žºR»»½¼s½*½ä¾”¿JÀÀ¸ÁoÂ)ÂÜÃÄHÄûÅµÆiÇ ÇÓÈ‹ÉBÉøÊ¬ËcÌÌÐÍ„Î>ÎñÏ¥Ð\ÑÑÉÒ€Ó4ÓêÔ¡ÕYÖÖÃ×zØ.ØåÙ›ÚSÛÛ½ÜuÝ+ÝÞÞ•ßMààºánâ%âÜãäGäþå´æhççÖè‰é@é÷ê«ëbììÏí†î9îðï§ð^ññÌòó4óêô¡õYööÂ÷yø1øäùšúRûû¿üsý*ýáþ”ÿK  ½m#ÚGû²hÓŽ	@	ø
+«bÍ„:ò¨_Ê5ì¢YÄz.åœR½t(ß–J   »!n"%"Ü#$F$þ%±&g''Ù(‰)@)ø*«+a,,Ð-ƒ.:.ñ/¬0_11É2€363ê4¡5X66Ã7y808ä9›:Q;;¿<r=)=á>—?J@@¹ApB&BÚC‘DHDûE²FiG GÔ×ïeÿ
+</BLOB>
+<BLOB blobid="37" size="735" compression="qt">
+  ÐxœÐ/ýI;IòJ©K^LLÌM€N7NîO¢PYQQÆRzS0SçTUUVV¾WvX,XßY—ZN[[¹\q]$]Û^“_F_ý`´akb"bØcŒdCdùe¯ffggÐh‡i;iòj©k]llÌm€n7nîožpXqqÆrzs0sætœuTvvÁwwx+xáy™zLzÿ{·|o}&}Ý~‘Dÿ€¶j‚ ‚ÒƒŠ„C„ö…­†c‡‡Îˆ…‰=‰ôŠ¤‹[ŒŒÉŽ8Žë¡Y‘‘Æ’}“,“ç”•T––»—v˜-˜á™˜šOšþ›ºœp'ÛžŽŸHŸü ³¡i¢!¢Ø£Ž¤A¤ù¥°¦`§§Ò¨…©=©ôª§«]¬¬Ì­®2®í¯¤°[±±Ä²w³1³é´œµS¶¶¿·u¸,¸à¹—ºN»»¹¼o½&½Ý¾¿F¿þÀ´ÁkÂ"ÂØÃŒÄDÄøÅ®ÆeÇÇÐÈ‡É>ÉñÊ¨Ë_ÌÌÌÍ|Î6ÎíÏ¡ÐXÑÑÂÒ}Ó0ÓæÔžÕUÖÖÀ×wØ*ØáÙ”ÚOÛÛºÜpÝ'ÝÛÞ’ßIßÿà¶áfâ!â×ãŒäCäúå­ædççÒè…é8éóê§ë^ììËíî5îìï¤ð[ññÅò|ó/óæôžõPöö¿÷vø-øáù—úNûû»üoý&ýÝþ‘ÿGÿþ µdÖD÷­eÏ‡	=	ô
+¨_È€7î¤[Æ}1ç›U	Àv*Þ˜O¹p$Û’Fù ³!k"""Ø#‹$?$ú%­&d''Ò(‚)=)ô*§+^,,Ì-€.6.í/¤0[11Å2|333æ45T66¿7u8)8à9–:N;;·<n=&=Ü>“?G?þ@µAlB"BÖC‰DDD÷E®FeGGËH†³©jŠ
+</BLOB>
+<BLOB blobid="38" size="228" compression="qt">
+ * xœíÁ   Â ÷Om7                                                                                                                                                                                                         €W*- 
+</BLOB>
+<BLOB blobid="39" size="735" compression="qt">
+  ÐxœÐ/ýqqÈr€s7sêt¢uXvvÂw|x0xçy›zQ{{¾|r})}à~—J€€¹p‚#‚Þƒ‘„E„û…²†j‡$‡ÓˆŠ‰B‰øŠ«‹bŒŒÍ…Ž>Žò¥]‘‘Ê’~“5“ì”¢•V––Ä—z˜.˜å™œšR››½œs+Þž™ŸL   ·¡n¢&¢Ù£¤G¤þ¥±¦g§§Ö¨Œ©@©÷ª®«a¬¬Ï­†®:®ñ¯¨°\±±É²€³6³ê´¡µX¶¶Â·y¸0¸ä¹šºQ»	»¼¼s½*½á¾”¿KÀÀ¹ÁpÂ$ÂÚÃ‘ÄEÄüÅ²ÆiÇÇÔÈ‹ÉAÉõÊ¬ËbÌÌÍÍ„Î:ÎòÏ¥Ð\ÑÑÍÒÓ4ÓëÔ¢Õ]ÖÖÄ×{Ø2ØåÙŸÚSÛÛ½ÜtÝ(ÝßÞ–ßMàà¸ásâ%âÙãäKäûå±æhççÕè‰é@é÷ê«ëaììÐíƒî:îñï¨ðcññÊò€ó8óîô¥õXööÃ÷zø4øäù›úQûû¼üsý*ýÞþ•ÿK  ¹m$Ú’Kû²i ×	A	ø
+¬cÎ…;ò¦aÊ~5ë¢VÄ{.ä›S½u(ß—J  ·!o"&"Ù#“$G$þ%±&h''Õ(‰)@)÷*¬+b,,Ð-„.;.ò/¦0\11É2€3;3ñ4 5X66Â7|818ç9š:R;;Ä<t=*=á>”?O@@¹AmB#BÞC‘DHDûE²FiG#GÓHŠI@IøJ¯KbLLÍM„N<NïO¦P]QQËR~S9SìT£UVVVÄWX/XåYœZP[
+[¾\r])]à^–_J``¸anb%bÝcdGdûe±fhg"gÖh‰i@iøj¯kallÐmƒn:nõo¥p_>f
+</BLOB>
+<BLOB blobid="40" size="735" compression="qt">
+  ÐxœÐ/ýqÅr|s/sçtžuTv	v»wux,xãy—zI{{»|n}%}Ü~Fý€µl‚‚×ƒŽ„A„÷…¯†a‡‡Ðˆ‡‰=‰ñŠ¨‹^ŒŒÊŽ7Žî¢Y‘‘Ã’z“1“è”Ÿ•R–	–À—w˜*˜á™™šK››ºœp'×ž’ŸIŸü ´¡k¢"¢Ö£Œ¤C¤ú¥®¦`§§Ò¨ˆ©<©ïª©«]¬¬Ë­‚®6®í¯¤°X±±Â²}³3³æ´µT¶¶¾·v¸-¸à¹“ºN»»¸¼p½&½Ý¾‘¿H¿þÀµÁiÂ ÂÖÃÄAÄøÅ®ÆeÇÇÐÈ‡É:ÉñÊ¨Ë_ÌÌÉÍ€Î7ÎîÏ¡ÐYÑÑÆÒ}Ó1ÓçÔžÕUÖ	ÖÀ×wØ-ØÝÙ˜ÚOÛÛ¹ÜpÝ ÝÛÞ’ßIßýà°ájâ"âÕãŒäDäòå­ædççÒè…é9éôê§ë]ììÈíî7îîï¤ð[ññÅò|ó3óçôžõTöö¿÷uø,øÜù—úMûû´ülý&ýÚþ‘ÿGÿÿ ¶i ×Dø®eÒ†	=	ô
+¨_Ê7îžXÇz.äŸR	Áw'á˜O¶q$Ü“Cþ ´!k"""Ö#Œ$C$ú%­&d''Î(…)<)ó*§+Z,,Ì-€.7.î/0X11Æ2}333é45T66¿7u8,8ã9—:N;;»<o=&=Ý>‘?G?þ@µAhBBÖCŽDDD÷E®FfGGÏH‡I=IôJ¨K_LLÉMN8NëO¢PZQQÇRvS1SèTŸURV	V½WwX*XáY˜ZH[[º\n]$]Ü^_F_ý`´akb"bÕcdDdöe­faggÒh†i=iôj§k^llÌm€n3nîo¢p[qUôhŠ
+</BLOB>
+<BLOB blobid="41" size="208" compression="qt">
+ Û@xœíÁ1   Â õOm                                                                                                                                                                                      x4Û^ 
+</BLOB>
+<BLOB blobid="42" size="735" compression="qt">
+  ÐxœÐ/ýœs*àž”ŸK  ¹¡m¢%¢Ù£¤H¤ü¥²¦i§ §×¨Š©A©÷ª««f¬¬Î­†®=®ï¯§°_±±È²€³7³ë´¢µY¶¶Ã·}¸1¸ä¹›ºR»	»À¼t½*½á¾•¿LÀÀ¹ÁmÂ#ÂÚÃ•ÄEÄûÅ²ÆjÇÇÔÈ‹ÉBÉõÊ¬ËdÌÌÍÍ…Î;ÎöÏ¥Ð]ÑÑÊÒ~Ó5ÓëÔ¢ÕVÖÖÈ×xØ/ØæÙœÚPÛÛ¾ÜtÝ(ÝßÞ–ßNà à·ánâ&âÜã”äHäûå±æiç çÓè‰éAéøê«ëeììÐí„î:îñï¨ð\ññÉòó8óëô¢õYööÃ÷zø.øåù›úRû	û¼üsý+ýÞþ•ÿK  ºm$Û‘Eü·iÔ‹	A	õ
+¬cÎ‰;ï¥\Î‚5ì£ZÅ{.æ¡S¾u)à—N  ¸!s"#"Ù#$G$û%²&h''Ó(Š)A)ø*¬+b,,Í-„.:.ò/¥0\11Ê2373ë4¢5Y66Ä7z818å9œ:R;;¼<s=*=à>”?K@@¹AtB#BÚC’DEDûE³FjG GÔH‹IEIøJ¬KcLLÑM…N;NòO¦PbQQÈRS6SìT U[VVÄWxX3XêYœZP[[¾\v](]ß^—_J``¼aob&bÙc‘dHdÿe²fig gÓhŠiAiøj«kbllÐm„n;nño¥p\qqÊrs4sït¢uYvvÃw~x4xäy›zS{	{¼|t}+}á~•O€€ºm‚$‚Ûƒ’„E„ü…³†g‡‡Ôˆ‹‰?‰öŠ­‹cŒŒÎ…Ž<Žï¥]‘‘Ë’~“6“í”£•W––Ä—˜/˜æ™šP››¾?f(
+</BLOB>
+<BLOB blobid="43" size="735" compression="qt">
+  ÐxœÐ/ý&ÝžŸCŸú ¶¡i¢!¢Õ£Œ¤@¤ø¥®¦e§§Ð¨†©=©ôª§«]¬¬Ë­‚®8®ì¯ °[±±Å²|³3³ç´žµU¶	¶À·v¸-¸á¹—ºN»»¹¼p½&½Ý¾‘¿E¿þÀ¶ÁiÂÂ×ÃŽÄAÄ÷Å¯ÆfÇÇÑÈˆÉ>ÉòÊ©Ë[ÌÌÊÍÎ7ÎîÏ¢ÐXÑÑÆÒzÓ,ÓçÔŸÕRÖ	ÖÀ×tØ+ØáÙ™ÚLÛÛ»ÜqÝ$ÝÛÞ“ßEßüà´ákâ"âØãäDä÷å®æeççÐè†é=éôê¤ë^ììÌí€î6îêï¤ðXññÅò}ó0óçôŸõUö	ö¼÷wø*øàù˜úOûû¸üpý'ýÚþÿHÿÿ ¶i ÔAø®eÐ‡	>	ñ
+¥`Ê8ê¡YÇ}2èŸS
+Áw+â™Oºq%Ü“Iý ´!k""Õ#Œ$D$÷%®&d''Ï(†)>)ô*¨+_,,É-|.7.î/¡0X11Æ2|333ç4ž5R6	6À7v8-8á9—:N;;¸<o=#=Ý>?G?ÿ@¶AlB B×CŽDBDôE¯FfGGÐH‡I=IôJ§K_LLÊMN7NîO¢PYQQÄRzS1SéT˜USV
+VÁWtX+XãY™ZL[[»\m]$]Ü^“_F_ý`´akb"bÖcdDdøe®feggËh‚i=iôj§k^llÉm€n6níopUqqÇr}s0sètŸuUvvÀwvx-xáy˜zN{{¹|l}&}Ý~‘Hÿ€µi‚ ‚×ƒŠ„A„ø…°†b‡‡Íˆˆ‰:‰òŠ©‹`ŒŒË‚Ž8ŽèžZ‘‘Ç’{“2“å”Ÿ•S–
+–À—w˜+˜â™™šL››·œqDOhº
+</BLOB>
+<BLOB blobid="44" size="186" compression="qt">
+ @xœíÁ1   Â õOm	O                                                                                                                                                                >^ 
+</BLOB>
+<BLOB blobid="45" size="735" compression="qt">
+  ÐxœÐ/ýÉBÉõÊ«ËeÌÌÎÍ†Î9ÎôÏ¥Ð\ÑÑÊÒ~Ó6ÓíÔ ÕWÖÖÂ×xØ/ØåÙÚSÛÛ½ÜtÝ+ÝÞÞ–ßMà à¸áoâ&âÚã‘äIäýå³ænççÕè‹éBéõê¬ëbììÏí‡î9îïï§ð^ññÈòó8óëô£õVööÅ÷xø/øæùúPû
+û½üsý*ýäþ”ÿJ  ¸p#Ú‘Eü·gÕ‰	?	ö
+¬dÍˆ;ò¥\Î~6ì ZÂy0æšQ¾r(ß–J  ·!o"#"Ù#$H$û%¶&j' 'Ó(Š)A)ø*«+c,,Ð-‡.;.ò/¥0]11Ê2~353ë4¢5Y66Ã7z8.8ä9›:R;;¼<s=+=Þ>•?L@@ºAuB$BÛC’DEDüE³FgGGÔHIEIõJ¬KcLLÎM…N9NïO¦PbQQÈRS5SíT§UVVVÅWxX3XêYZP[[¿\r]*]á^—_K``½aob#bÚc‘dLdûe²figg×hŽiAiõj«kbllÍm„n;nïoªp`qqÊrs4sît¢uYvvÄwzx1xåyœzS{{Á|t}(}ß~•L€€ºm‚$‚Úƒ•„E„ü…´†j‡‡ÕˆŒ‰?‰öŠ®‹hŒŒÏ†Ž<Žð§^‘‘È’“6“ì” •W––Ä—x˜/˜æ™ššP››Âœr(ßž—ŸJ   ¹¡o¢#¢Ù£”¤H¤û¥²¦i§ §Ó¨‹©A©øª¬«f¬¬Î­…®;®ö¯¥°\±±É²€³4³ë´¡µY¶¶È·{¸.¸å¹œºP»»½¼u½+½Þ¾–¿OÀÀºÁnÂ$ÂÛÃÄFÄýÅ³ÆgÇ"ÇÕÈ‰êÍf
+</BLOB>
+<BLOB blobid="46" size="735" compression="qt">
+  ÐxœÐ/ýÉñÊ§Ë]ÌÌËÍ‚Î6ÎíÏ ÐXÑÑÇÒzÓ.ÓéÔœÕTÖÖ¾×tØ,ØâÙ™ÚOÚþÛ¹ÜpÝ&ÝÚÞ‘ßFßýà´ákâ"âÒãäDäùå¯æfççÐè‡é>éñê¨ë^ììÌí‚î5îèï£ðZññÅò}ó1óèôŸõRö
+ö½÷tø,øãù™úIûû¹üoý&ýÝþ‹ÿFÿü µlÓŽAù°`Ò…	;	ó
+¥`Ê7í¡XÆz1èœS
+¾u,â–M»n$Ø“Fü ´!l""Ö#$D$ô%¯&f''Ð(‡)9)ô*¨+_,,Ì-€.7.î/¢0Y11Æ2z313ç4Ÿ5R6	6¿7w8*8Ý9˜:O;;¹<p=#=Ú>‘?H?ÿ@¶AlB B×CŽDADôE¯FcGGÐH‡I>IñJ¨K`LLÊM‚N4NëO¢PZQQÄR{S2SéTŸUSV
+VÁWtX+XâY™ZM[[»\o]&]Ý^“_G_ý`´akbbÕcŒdDdóe®feggÏh†i>iñj§k_llÆm€n8nëo¢pYqqÆr}s1sçtžuUv	vÀwsx*xáy˜zO{{º|p}$}Û~‘Eû€¶i‚!‚×ƒŽ„>„ù…°†f‡‡Íˆˆ‰<‰óŠª‹`ŒŒË‚Ž8ŽèžY‘‘Ä’z“2“é”œ•S––Á—q˜+˜ã™–šL› ›»œn%Üž“ŸCŸý ´¡k¢¢Ö£¤D¤ø¥®¦e§§Ð¨†©=©ôª¨«_¬¬Ê­®7®î¯¡°X±±Æ²}³,³è´žµU¶	¶À·w¸*¸â¹™ºKºÿ»º¼q½'½Û¾Ž¿H¿ÿÀ¶ÁjÂ ÂÓÃ‹ÄBÄøÅ°Æ_ÇÇÑÈ…É;lƒj„
+</BLOB>
+<BLOB blobid="47" size="169" compression="qt">
+ =ÀxœíÁ1   Â õOm	O                                                                                                                                               x=Þ 
+</BLOB>
